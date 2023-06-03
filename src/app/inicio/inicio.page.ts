@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InicioPage implements OnInit {
 
+  nombre: string = 'Renato';
+  edad: number = 30;
+
   constructor() { }
 
   ngOnInit() {
