@@ -35,6 +35,26 @@ const routes: Routes = [
     path: 'registro',
     loadChildren: () => import('./registro/registro.module').then( m => m.RegistroPageModule)
   },
+  {
+    path: 'listarclientes',
+    loadChildren: () => import('./clientes/listarclientes/listarclientes.module').then( m => m.ListarclientesPageModule)
+  },
+  {
+    path: 'addclientes',
+    loadChildren: () => import('./clientes/addclientes/addclientes.module').then( m => m.AddclientesPageModule)
+  },
+  {
+    path: 'uptadeclientes',
+    loadChildren: () => import('./clientes/uptadeclientes/uptadeclientes.module').then( m => m.UptadeclientesPageModule)
+  },
+  {
+    path: 'detailclientes',
+    loadChildren: () => import('./clientes/detailclientes/detailclientes.module').then( m => m.DetailclientesPageModule)
+  },
+  {
+    path: 'deleteclientes',
+    loadChildren: () => import('./clientes/deleteclientes/deleteclientes.module').then( m => m.DeleteclientesPageModule)
+  },
 ];
 
 @NgModule({
