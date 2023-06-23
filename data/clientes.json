@@ -1,14 +1,24 @@
 {
-	"clientes": [
-		{
-			"id": 1,
-			"nombre": "Luis",
-			"edad": 23
-		},
-		{
-			"id": 2,
-			"nombre": "Felipe",
-			"edad": 24
-		}
-	]
+  "clientes": [
+    {
+      "id": 1,
+      "nombre": "Luis",
+      "edad": 23
+    },
+    {
+      "id": 2,
+      "nombre": "Felipe",
+      "edad": 24
+    },
+    {
+      "nombre": "andres",
+      "edad": "34",
+      "id": 3
+    },
+    {
+      "nombre": "Jano",
+      "edad": "59",
+      "id": 4
+    }
+  ]
 }

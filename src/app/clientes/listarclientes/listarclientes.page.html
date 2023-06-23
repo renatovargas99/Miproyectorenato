@@ -4,13 +4,16 @@
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
     <ion-title>Listar</ion-title>
+    <ion-buttons slot="end">
+      <ion-button [routerLink]="['/addclientes']">Agregar</ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">listarclientes</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let g of clientes; let indexArray = index">
+      <ion-label> {{ g?.nombre }} </ion-label>
+    </ion-item>
+  </ion-list>
 </ion-content>
