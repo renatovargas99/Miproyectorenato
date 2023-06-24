@@ -48,7 +48,7 @@ const routes: Routes = [
     loadChildren: () => import('./clientes/uptadeclientes/uptadeclientes.module').then( m => m.UptadeclientesPageModule)
   },
   {
-    path: 'detailclientes',
+    path: 'detailclientes/:id',
     loadChildren: () => import('./clientes/detailclientes/detailclientes.module').then( m => m.DetailclientesPageModule)
   },
   {

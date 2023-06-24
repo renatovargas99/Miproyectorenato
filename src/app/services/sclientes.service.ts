@@ -19,4 +19,8 @@ export class SclientesService {
   crearCliente(newCliente:Icliente):Observable<Icliente>{
     return this.http.post<Icliente>(`${environment.apiURL}/clientes`, newCliente)
   }
+
+  getClientesByID(id:number):Observable<Iclientes>{
+    return this.http.get<Iclientes>(`${environment.apiURL}/clientes/?id=${id}`)
+  }
 }

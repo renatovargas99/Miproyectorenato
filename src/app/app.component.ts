@@ -15,7 +15,7 @@ export class AppComponent {
     { title: 'Agregar', url: 'addclientes', icon: 'person' },
     { title: 'Eliminar', url: 'deleteclientes', icon: 'person' },
     { title: 'Actualizar', url: 'uptadeclientes', icon: 'person' },
-    { title: 'Mostrar Detalle', url: 'detailclientes', icon: 'person' },
+    { title: 'Detalle', url: 'detailclientes', icon: 'person' },
   ];
   public labels = ['Promociones', 'Descuentos', 'Politicas de funcionamiento', 'Servicio'];
   constructor() {}

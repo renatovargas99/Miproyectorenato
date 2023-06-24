@@ -12,7 +12,7 @@
 
 <ion-content>
   <ion-list>
-    <ion-item *ngFor="let g of clientes; let indexArray = index">
+    <ion-item *ngFor="let g of clientes; let indexArray = index" [routerLink]="['/detailclientes', g.id]">
       <ion-label> {{ g?.nombre }} </ion-label>
     </ion-item>
   </ion-list>

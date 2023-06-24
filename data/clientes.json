@@ -19,6 +19,21 @@
       "nombre": "Jano",
       "edad": "59",
       "id": 4
+    },
+    {
+      "nombre": "nicolas",
+      "edad": "30",
+      "id": 5
+    },
+    {
+      "nombre": "Renato",
+      "edad": "24",
+      "id": 6
+    },
+    {
+      "nombre": "Martin",
+      "edad": "29",
+      "id": 7
     }
   ]
 }
