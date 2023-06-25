@@ -23,4 +23,12 @@ export class SclientesService {
   getClientesByID(id:number):Observable<Iclientes>{
     return this.http.get<Iclientes>(`${environment.apiURL}/clientes/?id=${id}`)
   }
+
+  actualizarCliente(cliente: any):Observable<Iclientes>{
+    return this.http.put<Iclientes>(`${environment.apiURL}/clientes/${cliente.id}`,cliente)
+  }
+
+  eliminarCliente(cliente: any): Observable<Iclientes>{
+    return this.http.delete<Iclientes>(`${environment.apiURL}/clientes/${cliente.id}`)
+  }
 }

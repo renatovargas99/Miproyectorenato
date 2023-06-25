@@ -19,5 +19,8 @@
     <ion-card-content>
       <strong>{{cliente.edad}}</strong>
     </ion-card-content>
+
+    <ion-button [routerLink]="['/uptadeclientes',cliente.id]"  color="warning"><ion-icon name="create"></ion-icon></ion-button>
+    <ion-button [routerLink]="['/deleteclientes',cliente.id]" color="danger"><ion-icon name="trash"></ion-icon></ion-button>
   </ion-card>
 </ion-content>

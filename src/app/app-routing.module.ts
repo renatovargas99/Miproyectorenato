@@ -44,7 +44,7 @@ const routes: Routes = [
     loadChildren: () => import('./clientes/addclientes/addclientes.module').then( m => m.AddclientesPageModule)
   },
   {
-    path: 'uptadeclientes',
+    path: 'uptadeclientes/:id',
     loadChildren: () => import('./clientes/uptadeclientes/uptadeclientes.module').then( m => m.UptadeclientesPageModule)
   },
   {
@@ -52,7 +52,7 @@ const routes: Routes = [
     loadChildren: () => import('./clientes/detailclientes/detailclientes.module').then( m => m.DetailclientesPageModule)
   },
   {
-    path: 'deleteclientes',
+    path: 'deleteclientes/:id',
     loadChildren: () => import('./clientes/deleteclientes/deleteclientes.module').then( m => m.DeleteclientesPageModule)
   },
 ];

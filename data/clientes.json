@@ -11,11 +11,6 @@
       "edad": 24
     },
     {
-      "nombre": "andres",
-      "edad": "34",
-      "id": 3
-    },
-    {
       "nombre": "Jano",
       "edad": "59",
       "id": 4
@@ -26,9 +21,9 @@
       "id": 5
     },
     {
-      "nombre": "Renato",
-      "edad": "24",
-      "id": 6
+      "id": 6,
+      "nombre": "Pedro",
+      "edad": "24"
     },
     {
       "nombre": "Martin",
