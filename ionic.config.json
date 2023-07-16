@@ -1,5 +1,7 @@
 {
   "name": "Miproyectorenato",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }

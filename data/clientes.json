@@ -1,34 +1,24 @@
 {
   "clientes": [
     {
-      "id": 1,
-      "nombre": "Luis",
-      "edad": 23
+      "nombre": "Nicolas",
+      "edad": "33",
+      "id": 1
     },
     {
-      "id": 2,
-      "nombre": "Felipe",
-      "edad": 24
+      "nombre": "Monica",
+      "edad": "50",
+      "id": 2
     },
     {
-      "nombre": "Jano",
-      "edad": "59",
+      "nombre": "Alejandro",
+      "edad": "40",
+      "id": 3
+    },
+    {
+      "nombre": "Joaquin",
+      "edad": "18",
       "id": 4
-    },
-    {
-      "nombre": "nicolas",
-      "edad": "30",
-      "id": 5
-    },
-    {
-      "id": 6,
-      "nombre": "Pedro",
-      "edad": "24"
-    },
-    {
-      "nombre": "Martin",
-      "edad": "29",
-      "id": 7
     }
   ]
 }
